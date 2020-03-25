@@ -7,10 +7,8 @@ const commentList = document.querySelector("#commentList");
 
 function addPhotoUser() {
 	const photo = document.createElement("img");
-
 	photo.setAttribute("src", "userphoto.jpg");
-	photo.setAttribute("width", "35");
-	photo.setAttribute("height", "45");
+	photo.setAttribute("class","photo");
 	photo.setAttribute("alt", "User Photo");
 	document.body.appendChild(photo);
 	return photo;
@@ -18,12 +16,14 @@ function addPhotoUser() {
 
 function addEmailUser(emailAdress) {
 	const emailUser = document.createElement("h3");
+	emailUser.setAttribute("class","emailUser");
 	emailUser.innerText = emailAdress;
 	return emailUser;
 }
 
 function addParagraph(text) {
 	const newP = document.createElement("p");
+	newP.setAttribute("class","commentOutput");
 	newP.innerText = text;
 	return newP;
 }
@@ -67,6 +67,7 @@ function displayComments(comments, containerNode) {
 function createDeleteButton(buttonID) {
 	const btnDelete = document.createElement("button");
 	btnDelete.setAttribute("type", "button");
+	btnDelete.setAttribute("class","deleteButton");
 	btnDelete.setAttribute("data-id", buttonID);
 
 	btnDelete.textContent = "Delete";
