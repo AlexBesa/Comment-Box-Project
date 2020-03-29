@@ -50,6 +50,7 @@
     border-radius: 10px;
     box-shadow: 0 12px 16px 0 rgba(77, 241, 220, 0.24),0 17px 50px 0 rgba(187, 23, 23, 0.19);
     outline: none;
+    border: none;
 }
 
 .commentList { 
@@ -80,6 +81,7 @@
     box-shadow: 0 12px 16px 0 rgba(77, 241, 220, 0.24),0 17px 50px 0 rgba(187, 23, 23, 0.19);
     outline: none;
     margin: 5px 42%;  
+    border: none;
 }
 
 .photo {
