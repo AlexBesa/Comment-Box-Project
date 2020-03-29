@@ -63,6 +63,13 @@
     box-shadow: 0 4px 8px 0 rgba(231, 35, 9, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
+.commentList>h3,
+.commentList>p
+ {
+    display: block;
+    margin: 5px 10px;
+}
+
 
 .deleteButton {
     background-color:rgb(236, 48, 48);
@@ -85,14 +92,16 @@
     height: 55px;
     border-radius: 50%;
     padding-top: 10px;
+    float: left;
 }
 
 .emailUser { 
     padding: 5px 0px;
     margin: auto;
     align-self: center;
-    text-align: center;
+    text-align: left;
     font-size: 18px;
+    padding-left: 4rem;
     
 }
 .commentOutput {
@@ -101,7 +110,8 @@
     padding: 5px 0px;
     margin: auto; 
     align-self: center;
-    text-align: center;
+    text-align: left;
     font-size:20px;
+    padding-left: 4rem;
     
 }
